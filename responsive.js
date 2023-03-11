@@ -229,13 +229,12 @@ const foodsarray=[
     "https://images.pexels.com/photos/8000025/pexels-photo-8000025.jpeg?auto=compress&cs=tinysrgb&w=600"
 
 ]
-
 window.onload=()=>{
     console.log(pictures[0])
-    for(let index=0;index<pictures.length;index++){
+    for(let index of pictures){
     const imgTagCreate=document.createElement("img")
     imgTagCreate.alt="Beautiful images"
-   imgTagCreate.src=`${pictures[index]}`
+   imgTagCreate.src=`${index}`
    displaycontent.appendChild(imgTagCreate)
 }
 }
