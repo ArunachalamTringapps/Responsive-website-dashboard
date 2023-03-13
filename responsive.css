@@ -139,12 +139,12 @@ header h1{
     border-radius: 30px;
     height: 50%;
     width: 30%;
-    transition:width 2s,box-shadow 1.5s;
+    transition:height 2s,box-shadow 1.5s;
     background-color: aquamarine;
 }
 .display-content img:hover{
     box-shadow: 2px 2px 1px 10px #ffffff1d;
-    width: 30em;
+    height: 55%;
 }
 
 
